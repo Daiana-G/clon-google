@@ -130,3 +130,30 @@ main .container p {
     color: whitesmoke;
 }
 
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    background-color: #171717;
+}
+footer section {
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    color: #999da2;
+}
+footer section.more-info {
+    border-top: #3b3b3b solid 1px;
+    display: flex;
+    justify-content: space-between;
+}
+footer section.more-info div {
+    display: flex;
+    gap: 17px;
+}
+footer section.more-info div a {
+    color: #999da2;
+    text-decoration: none;
+}
